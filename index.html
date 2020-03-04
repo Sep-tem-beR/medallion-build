@@ -12,13 +12,26 @@
     <title>Madallion</title>
   <link href="index.css" rel="stylesheet"></head>
   <body>
-    <div class="page">
+    <div class="page" id="my-page">
       <div class="header">
+        <nav id="my-menu">
+          <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#madallions">Медальоны</a></li>
+            <li><a href="#trophy-medallions">Медальоны с трофеями</a></li>
+            <li><a href="#thread-and-taxidermy">Сочетание резьбы и таксидермии</a></li>
+            <li><a href="#carved-home-decoration">Резные предметы интерьера</a></li>
+            <li><a href="#carving-and-natural-materials">Сочетание резьбы и природных материалов</a></li>
+            <li><a href="#fixtures">Светильники</a></li>
+            <li><a href="#contact">Написать мне</a></li>
+          </ul>
+        </nav>
         <div class="header__headline-wrapper">
           <h1 class="header__headline"><span class="header__span">таксидермическая студия</span><br>medallion</h1>
+          <div class="burger"><a class="hamburger hamburger--emphatic" href="#my-menu"><span class="hamburger-box"><span class="hamburger-inner"></span></span></a></div>
         </div>
       </div>
-      <section class="about-option">
+      <section class="about-option" id="about">
         <div class="about-option__text">
           <div class="about-option__text1"></div>
           <div class="about-option__text2"></div>
@@ -35,7 +48,7 @@
           <p>  Срок изготовления медальона от нескольких дней до 2-х месяцев в зависимости от сложности работы. При необходимости выполнения заказа к определенной дате (подарок ко дню рождения, юбилей и т.п.) пожелания заказчика принимаются во внимание.</p>
         </div>
       </section>
-      <section class="section madallions">
+      <section class="section madallions" id="madallions">
         <h2 class="madallions__headline">медальоны</h2>
         <div class="line"></div>
         <div class="madallions__owl-wrapper owl-wrapper">
@@ -157,7 +170,7 @@
           </div>
         </div>
       </section>
-      <section class="section trophy-medallions">
+      <section class="section trophy-medallions" id="trophy-medallions">
         <h2 class="trophy-medallions__headline">Медальоны с трофеями</h2>
         <div class="line"></div>
         <div class="trophy-medallions__owl-wrapper owl-wrapper">
@@ -228,7 +241,7 @@
           </div>
         </div>
       </section>
-      <section class="section thread-and-taxidermy">
+      <section class="section thread-and-taxidermy" id="thread-and-taxidermy">
         <h2 class="thread-and-taxidermy__headline">Сочетание резьбы<br>и таксидермии</h2>
         <div class="line"></div>
         <div class="thread-and-taxidermy__owl-wrapper owl-wrapper">
@@ -263,7 +276,7 @@
           </div>
         </div>
       </section>
-      <section class="section carved-home-decoration">
+      <section class="section carved-home-decoration" id="carved-home-decoration">
         <h2 class="carved-home-decoration__headline">Резные предметы интерьера</h2>
         <div class="line"></div>
         <div class="carved-home-decoration__owl-wrapper owl-wrapper">
@@ -304,7 +317,7 @@
           </div>
         </div>
       </section>
-      <section class="section carving-and-natural-materials">
+      <section class="section carving-and-natural-materials" id="carving-and-natural-materials">
         <h2 class="carving-and-natural-materials__headline">Сочетание резьбы<br>и природных материалов</h2>
         <div class="line"></div>
         <div class="carving-and-natural-materials__owl-wrapper owl-wrapper">
@@ -333,7 +346,7 @@
           </div>
         </div>
       </section>
-      <section class="section fixtures">
+      <section class="section fixtures" id="fixtures">
         <h2 class="fixtures__headline">Светильники</h2>
         <div class="line"></div>
         <div class="fixtures__owl-wrapper owl-wrapper">
@@ -356,7 +369,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2 class="contact__headline">Написать мне</h2>
         <form class="contact__form"><!-- Hidden Required Fields -->
           <input type="hidden" name="project_name" value="Madallion">
